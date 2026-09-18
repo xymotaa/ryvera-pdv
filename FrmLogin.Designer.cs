@@ -28,101 +28,71 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textSaudacao = new Label();
-            btnEmail = new Button();
-            textLogin = new Label();
-            btnSenha = new Button();
-            txtSenha = new Label();
-            btnLogin = new Button();
-            btnCriarConta = new Button();
+            TextSaudacao = new Label();
+            TextSenha = new Label();
+            BtnLogin = new Button();
+            BtnCriarConta = new Button();
             txtCopyringt = new Label();
             linktxtRyvera = new LinkLabel();
+            ImgLogin = new PictureBox();
+            PanImgLogin = new Panel();
+            TextBoxSenha = new TextBox();
+            TextBoxEmail = new TextBox();
+            TexEmail = new Label();
+            ((System.ComponentModel.ISupportInitialize)ImgLogin).BeginInit();
+            PanImgLogin.SuspendLayout();
             SuspendLayout();
             // 
-            // textSaudacao
+            // TextSaudacao
             // 
-            textSaudacao.AutoSize = true;
-            textSaudacao.Font = new Font("Consolas", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textSaudacao.Location = new Point(39, 96);
-            textSaudacao.Name = "textSaudacao";
-            textSaudacao.Size = new Size(160, 22);
-            textSaudacao.TabIndex = 0;
-            textSaudacao.Text = "Seja bem vindo!";
-            textSaudacao.TextAlign = ContentAlignment.MiddleLeft;
+            TextSaudacao.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            TextSaudacao.Font = new Font("Consolas", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            TextSaudacao.Location = new Point(56, 100);
+            TextSaudacao.Name = "TextSaudacao";
+            TextSaudacao.Size = new Size(261, 22);
+            TextSaudacao.TabIndex = 0;
+            TextSaudacao.Text = "Seja bem vindo!";
+            TextSaudacao.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // btnEmail
+            // TextSenha
             // 
-            btnEmail.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnEmail.Location = new Point(39, 149);
-            btnEmail.Name = "btnEmail";
-            btnEmail.Size = new Size(266, 35);
-            btnEmail.TabIndex = 1;
-            btnEmail.TabStop = false;
-            btnEmail.Text = "Insira seu e-mail:";
-            btnEmail.TextAlign = ContentAlignment.MiddleLeft;
-            btnEmail.UseVisualStyleBackColor = true;
+            TextSenha.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            TextSenha.Location = new Point(56, 204);
+            TextSenha.Name = "TextSenha";
+            TextSenha.Size = new Size(147, 38);
+            TextSenha.TabIndex = 4;
+            TextSenha.Text = "Informe o sua senha:";
+            TextSenha.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // textLogin
+            // BtnLogin
             // 
-            textLogin.AutoSize = true;
-            textLogin.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textLogin.Location = new Point(39, 132);
-            textLogin.Name = "textLogin";
-            textLogin.Size = new Size(147, 14);
-            textLogin.TabIndex = 2;
-            textLogin.Text = "Informe o seu e-mail";
-            textLogin.TextAlign = ContentAlignment.MiddleLeft;
+            BtnLogin.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            BtnLogin.ForeColor = SystemColors.AppWorkspace;
+            BtnLogin.Location = new Point(56, 296);
+            BtnLogin.Name = "BtnLogin";
+            BtnLogin.Size = new Size(120, 35);
+            BtnLogin.TabIndex = 6;
+            BtnLogin.TabStop = false;
+            BtnLogin.Text = "Login";
+            BtnLogin.UseVisualStyleBackColor = true;
             // 
-            // btnSenha
+            // BtnCriarConta
             // 
-            btnSenha.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSenha.Location = new Point(39, 215);
-            btnSenha.Name = "btnSenha";
-            btnSenha.Size = new Size(266, 35);
-            btnSenha.TabIndex = 3;
-            btnSenha.TabStop = false;
-            btnSenha.Text = "Insira sua senha:";
-            btnSenha.TextAlign = ContentAlignment.MiddleLeft;
-            btnSenha.UseVisualStyleBackColor = true;
-            // 
-            // txtSenha
-            // 
-            txtSenha.AutoSize = true;
-            txtSenha.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtSenha.Location = new Point(39, 198);
-            txtSenha.Name = "txtSenha";
-            txtSenha.Size = new Size(147, 14);
-            txtSenha.TabIndex = 4;
-            txtSenha.Text = "Informe o sua senha:";
-            txtSenha.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // btnLogin
-            // 
-            btnLogin.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnLogin.Location = new Point(39, 267);
-            btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(120, 35);
-            btnLogin.TabIndex = 5;
-            btnLogin.TabStop = false;
-            btnLogin.Text = "Login";
-            btnLogin.UseVisualStyleBackColor = true;
-            // 
-            // btnCriarConta
-            // 
-            btnCriarConta.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCriarConta.Location = new Point(185, 267);
-            btnCriarConta.Name = "btnCriarConta";
-            btnCriarConta.Size = new Size(120, 35);
-            btnCriarConta.TabIndex = 6;
-            btnCriarConta.TabStop = false;
-            btnCriarConta.Text = "Criar Conta";
-            btnCriarConta.UseVisualStyleBackColor = true;
+            BtnCriarConta.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            BtnCriarConta.ForeColor = SystemColors.AppWorkspace;
+            BtnCriarConta.Location = new Point(197, 296);
+            BtnCriarConta.Name = "BtnCriarConta";
+            BtnCriarConta.Size = new Size(120, 35);
+            BtnCriarConta.TabIndex = 6;
+            BtnCriarConta.TabStop = false;
+            BtnCriarConta.Text = "Criar Conta";
+            BtnCriarConta.UseVisualStyleBackColor = true;
             // 
             // txtCopyringt
             // 
             txtCopyringt.AutoSize = true;
             txtCopyringt.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtCopyringt.Location = new Point(60, 324);
+            txtCopyringt.Location = new Point(82, 352);
             txtCopyringt.Name = "txtCopyringt";
             txtCopyringt.Size = new Size(126, 14);
             txtCopyringt.TabIndex = 7;
@@ -134,7 +104,7 @@
             linktxtRyvera.AutoSize = true;
             linktxtRyvera.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             linktxtRyvera.LinkColor = Color.DimGray;
-            linktxtRyvera.Location = new Point(186, 324);
+            linktxtRyvera.Location = new Point(204, 352);
             linktxtRyvera.Name = "linktxtRyvera";
             linktxtRyvera.Size = new Size(84, 14);
             linktxtRyvera.TabIndex = 8;
@@ -142,37 +112,95 @@
             linktxtRyvera.Text = "Ryvera Code";
             linktxtRyvera.LinkClicked += linktxtRyvera_LinkClicked;
             // 
+            // ImgLogin
+            // 
+            ImgLogin.Image = Properties.Resources.imglogin;
+            ImgLogin.Location = new Point(56, 54);
+            ImgLogin.Name = "ImgLogin";
+            ImgLogin.Size = new Size(292, 307);
+            ImgLogin.SizeMode = PictureBoxSizeMode.Zoom;
+            ImgLogin.TabIndex = 9;
+            ImgLogin.TabStop = false;
+            // 
+            // PanImgLogin
+            // 
+            PanImgLogin.BackColor = SystemColors.AppWorkspace;
+            PanImgLogin.Controls.Add(ImgLogin);
+            PanImgLogin.Location = new Point(403, -1);
+            PanImgLogin.Name = "PanImgLogin";
+            PanImgLogin.Size = new Size(398, 452);
+            PanImgLogin.TabIndex = 10;
+            // 
+            // TextBoxSenha
+            // 
+            TextBoxSenha.ForeColor = SystemColors.AppWorkspace;
+            TextBoxSenha.Location = new Point(56, 245);
+            TextBoxSenha.Multiline = true;
+            TextBoxSenha.Name = "TextBoxSenha";
+            TextBoxSenha.PlaceholderText = "***************";
+            TextBoxSenha.Size = new Size(261, 35);
+            TextBoxSenha.TabIndex = 11;
+            // 
+            // TextBoxEmail
+            // 
+            TextBoxEmail.ForeColor = SystemColors.AppWorkspace;
+            TextBoxEmail.Location = new Point(56, 166);
+            TextBoxEmail.Multiline = true;
+            TextBoxEmail.Name = "TextBoxEmail";
+            TextBoxEmail.PlaceholderText = "email@example.com";
+            TextBoxEmail.Size = new Size(261, 35);
+            TextBoxEmail.TabIndex = 13;
+            // 
+            // TexEmail
+            // 
+            TexEmail.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            TexEmail.Location = new Point(56, 122);
+            TexEmail.Name = "TexEmail";
+            TexEmail.Size = new Size(147, 38);
+            TexEmail.TabIndex = 12;
+            TexEmail.Text = "Informe o sua senha:";
+            TexEmail.TextAlign = ContentAlignment.MiddleLeft;
+            // 
             // FrmLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(800, 450);
+            Controls.Add(TextBoxEmail);
+            Controls.Add(TexEmail);
+            Controls.Add(TextBoxSenha);
             Controls.Add(linktxtRyvera);
+            Controls.Add(PanImgLogin);
+            Controls.Add(BtnLogin);
             Controls.Add(txtCopyringt);
-            Controls.Add(btnCriarConta);
-            Controls.Add(btnLogin);
-            Controls.Add(txtSenha);
-            Controls.Add(btnSenha);
-            Controls.Add(textLogin);
-            Controls.Add(btnEmail);
-            Controls.Add(textSaudacao);
+            Controls.Add(BtnCriarConta);
+            Controls.Add(TextSenha);
+            Controls.Add(TextSaudacao);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "FrmLogin";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Tela Login";
+            ((System.ComponentModel.ISupportInitialize)ImgLogin).EndInit();
+            PanImgLogin.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label textSaudacao;
-        private Button btnEmail;
-        private Label textLogin;
-        private Button btnSenha;
-        private Label txtSenha;
-        private Button btnLogin;
-        private Button btnCriarConta;
+        private Label TextSaudacao;
+        private Label TextSenha;
+        private Button BtnLogin;
+        private Button BtnCriarConta;
         private Label txtCopyringt;
         private LinkLabel linktxtRyvera;
+        private PictureBox ImgLogin;
+        private Panel PanImgLogin;
+        private TextBox TextBoxSenha;
+        private TextBox TextBoxEmail;
+        private Label TexEmail;
+        private TextBox TextCardEmail;
+        private Panel PanLoginEmail;
     }
 }

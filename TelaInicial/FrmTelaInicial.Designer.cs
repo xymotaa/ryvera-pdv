@@ -1,6 +1,6 @@
 ﻿namespace Ryvera_PDV.TelaInicial
 {
-    partial class Form1
+    partial class FrmTelaInicial
     {
         /// <summary>
         /// Required designer variable.

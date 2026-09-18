@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Ryvera_PDV.TelaInicial
 {
-    public partial class Form1 : Form
+    public partial class FrmTelaInicial : Form
     {
-        public Form1()
+        public FrmTelaInicial()
         {
             InitializeComponent();
         }

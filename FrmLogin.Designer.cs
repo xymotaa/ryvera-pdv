@@ -181,6 +181,7 @@
             Name = "FrmLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Tela Login";
+            Load += FrmLogin_Load;
             ((System.ComponentModel.ISupportInitialize)ImgLogin).EndInit();
             PanImgLogin.ResumeLayout(false);
             ResumeLayout(false);

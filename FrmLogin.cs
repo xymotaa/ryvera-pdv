@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ryvera_PDV.TelaInicial;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,9 +35,12 @@ namespace Ryvera_PDV
             }
         }
 
-        private void FrmLogin_Load(object sender, EventArgs e)
+        private void BtnLogin_Click(object sender, EventArgs e)
         {
-
+            // Autenticação simples, apenas frontend.
+            FrmTelaInicial telaInicial = new FrmTelaInicial();
+            telaInicial.Show();
+            this.Hide();
         }
     }
 }

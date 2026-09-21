@@ -14,5 +14,11 @@ namespace Ryvera_PDV.TelaInicial
         {
             InitializeComponent();
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //criando função para fechar o programa ao clicar no botão sair
+            this.Close();
+        }
     }
 }

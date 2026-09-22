@@ -42,5 +42,10 @@ namespace Ryvera_PDV
             telaInicial.Show();
             this.Hide();
         }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

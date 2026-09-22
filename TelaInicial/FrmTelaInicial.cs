@@ -21,10 +21,5 @@ namespace Ryvera_PDV.TelaInicial
             //criando função para fechar o programa ao clicar no botão sair
             Application.Exit();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

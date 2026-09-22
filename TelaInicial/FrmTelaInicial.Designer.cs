@@ -269,7 +269,6 @@
             label1.TabIndex = 2;
             label1.Text = "Lançar Venda";
             label1.TextAlign = ContentAlignment.MiddleCenter;
-            label1.Click += label1_Click;
             // 
             // label2
             // 
